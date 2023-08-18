@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+		<title>University Website Design</title>
+		<link rel="stylesheet" href="style.css">
+
+		<!-- code to fetch fonts online -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300;1,400&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+		<!-- Local font Awesome -->
+		
+		<link rel="stylesheet" type="text/css" href="./fontawesome-6.4/css/fontawesome.css">
+
+		<link rel="stylesheet" type="text/css" href="./fontawesome-6.4/css/brands.min.css">
+		<link rel="stylesheet" type="text/css" href="./fontawesome-6.4/css/solid.min.css">
+
+	</head>
+	<body>
+		<section class="header">
+		<!--adding a class name for the section-->
+			<nav>
+			<!--in this multi-tag created,"nav", we add the logo-->
+				<a href="index.html"><img src="images/logo.png"></a>
+
+				<div class="nav-links" id="navLinks">
+				<!-- we have id for javascript -->
+
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<!-- close icon for the menu for smaller devices 
+						clicking the icon will call the function called hideMenu-->
+
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="course.html">COURSE</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+				<!--clicking the icon will call the function called hideMenu-->
+
+				<!-- menu icon for menu for smaller devices -->
+
+			</nav>
+
+			<div class="text-box">
+				<h1>World's Biggest University</h1>
+				<p>Rationality is the ability to counteract these emotional ef ects, to think instead of react, to open your mind to what is really happening, as opposed to what you are feeling</p>
+			</div>
+
+		</section>
+
+		<!-- Course -->
+
+		<section class="course">
+			<h1>Courses We Offer</h1>
+			<p>TestDisk & PhotoRec 7.0 is the last version supporting Windows Server 2003.</p>
+
+			<div class="row">
+				<div class="course-col">
+					<h3>Intermidiate</h3>
+					<p>Richard Feynman won the Nobel prize in physics, is one of the world's greatest 
+					theoretical physicists, and is a man who has fallen, often jumped, into outrageous 
+					adventure.</p>
+				</div>
+				<div class="course-col">
+					<h3>Degree</h3>
+					<p>Richard Feynman won the Nobel prize in physics, is one of the world's greatest 
+					theoretical physicists, and is a man who has fallen, often jumped, into outrageous 
+					adventure.</p>
+				</div>
+				<div class="course-col">
+					<h3>Post Graduation</h3>
+					<p>Richard Feynman won the Nobel prize in physics, is one of the world's greatest 
+					theoretical physicists, and is a man who has fallen, often jumped, into outrageous 
+					adventure.</p>
+				</div>
+
+		</section>
+
+		<!-- Campus -->
+
+		<section class="campus">
+			<h1>Our Global Campus</h1>
+			<p>TestDisk & PhotoRec 7.0 is the last version supporting Windows Server 2003.</p>
+
+			<div class="row">
+				<div class="campus-col">
+					<img src="images/london.png">
+					<div class="layer">
+					<h3>LONDON</h3>
+					</div>
+				</div>
+				<div class="campus-col">
+					<img src="images/newyork.png">
+					<div class="layer">
+					<h3>NEW YORK</h3>
+					</div>
+				</div>
+				<div class="campus-col">
+					<img src="images/washington.png">
+					<div class="layer">
+					<h3>WASHINGTON</h3>
+					</div>
+				</div>
+
+		</section>
+
+		<!-- Facilities -->
+
+		<section class="facilities">
+			<h1>Our Facilities</h1>
+			<p>So they all got excited about this, and I
+			predicted a couple of other things.</p>
+
+			<div class="row">
+				<div class="facilities-col">
+					<img src="images/library.png">
+					<h3>World Class Library</h3>
+					<p>So they all got excited about this, and I predicted a couple of other things.</p>
+				</div>
+
+				<div class="facilities-col">
+					<img src="images/basketball.png">
+					<h3>Largest Play Ground</h3>
+					<p>So they all got excited about this, and I predicted a couple of other things.</p>
+				</div>
+
+				<div class="facilities-col">
+					<img src="images/cafeteria.png">
+					<h3>Healthy and Tasty Food</h3>
+					<p>So they all got excited about this, and I predicted a couple of other things.</p>
+				</div>
+				
+			</div>
+
+		</section>
+
+		<!-- Testimonials -->
+
+		<section class="testimonials">
+			<h1>What Our Student Says</h1>
+			<p>So they all got excited about this, and I predicted a couple of other things.</p>
+
+			<div class="row">
+
+				<div class="testimonials-col">
+					<img src="images/user2.jpg">
+					<div>
+						<p>Ultimately I got some job like converting a DC set into an AC set, and it was very hard to keep the hum from going through the system, and I didn't build it 
+						quite right. I shouldn't have bitten that one off, but I didn't know.</p>
+						<h3>Mark Twain</h3>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+				</div>
+
+				<div class="testimonials-col">
+					<img src="images/user1.jpg">
+					<div>
+						<p>Ultimately I got some job like converting a DC set into an AC set, and it was very hard to keep the hum from going through the system, and I didn't build it 
+						quite right. I shouldn't have bitten that one off, but I didn't know.</p>
+						<h3>Jennifer Byer</h3>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+					</div>
+				</div>
+
+			</div>
+			
+		</section>
+
+		<!-- Call To Action -->
+
+		<section class="cta">
+
+			<h1>Enroll for our various online courses<br>Anywhere from the world</h1>
+			<a href="" class="hero-btn">CONTACT US</a>
+			
+		</section>
+
+		<!-- Footer-->
+
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>So they all got excited about this, and I predicted a couple of other things.</p>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-linkedin"></i>
+				<!-- <i class="fa-solid fa-user"></i> -->
+			</div>
+			<p>Made with<i class="fa fa-heart-o"></i> by Mark Blair</p>
+			
+		</section>
+		
+		<!-- JavaScript for Toggle menu -->
+
+		<script>
+			
+			var navLinks = document.getElementById("navLinks");
+
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+
+			function hideMenu(){
+				navLinks.style.right = "-200px";
+			}
+
+		</script>
+
+	</body>
+</html>
